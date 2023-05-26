@@ -1,0 +1,102 @@
+/* Estilos existentes */
+
+.logo-container {
+  text-align: center;
+}
+
+.container {
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.logo {
+  width: 250px;
+  margin-bottom: 20px;
+  float: left; /* Adicionado para alinhar a logo à esquerda */
+}
+
+.support-text {
+  margin-top: 0px;
+  font-size: 35px;
+  text-align: left; /* Alinha o texto à esquerda */
+}
+
+h1 {
+  font-size: 4px;
+  margin-bottom: 4px;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 90%;
+  padding: 12px 15px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px; /* Valor maior para borda arredondada */
+  font-size: 16px;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+  outline-color: #3399cc; /* Cor azul claro */
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 12px 15px;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  background-color: #3399cc; /* Altere para a cor desejada */
+}
+
+.signup-link {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.signup-link a {
+  color: #3399cc; /* Cor azul claro */
+}
+
+.login-text {
+  margin-top: 10px; /* Corrigido o valor da margem superior */
+  font-size: 15px;
+  float: left;
+  margin-left: 5px; /* Ajuste o valor da margem esquerda conforme desejado */
+}
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 767px) {
+  .container .image {
+    display: none;
+  }
+}
+
+/* Estilos para PC */
+@media (min-width: 768px) {
+  .container {
+    display: flex;
+    align-items: center;
+  }
+
+  .pc-logo {
+    display: none; /* Oculta a imagem do logo na versão para PC */
+    }
+    
+    .hide-on-pc {
+    display: none; /* Oculta o texto na versão para PC */
+  }
+  
+
+  .container .image {
+    flex-shrink: 0;
+    margin-right: 20px;
+  }
+}
+
